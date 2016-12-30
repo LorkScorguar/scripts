@@ -1,6 +1,6 @@
 rm -rf Modèles Public
 #remove uneeded programs
-sudo eopkg remove thunderbird gnome-calculator bluez nvidia-304-glx-driver-modaliases nvidia-340-glx-driver-modaliases nvidia-glx-driver-modaliases orca -y
+sudo eopkg remove thunderbird gnome-calculator bluez nvidia-304-glx-driver-modaliases nvidia-340-glx-driver-modaliases nvidia-glx-driver-modaliases orca xorg-driver-input-wacom -y
 #install needed tools
 sudo eopkg install atom terminator libreoffice-writer libreoffice-calc git moc unrar mtpfs lm_sensors nmap golang -y
 #chrome dev
