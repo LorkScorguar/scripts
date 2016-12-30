@@ -9,3 +9,4 @@ sudo eopkg it google-chrome-*.eopkg;sudo rm google-chrome-*.eopkg
 #android tools
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/programming/tools/android-tools/pspec.xml
 sudo eopkg it android-tools*.eopkg;sudo rm android-tools*.eopkg
+echo "export PATH=$PATH:/sbin" > ~/.bashrc
