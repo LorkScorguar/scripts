@@ -3,7 +3,7 @@ mkdir Dev
 #upgrade
 sudo eopkg upgrade -y
 #remove uneeded programs
-sudo eopkg remove -y thunderbird gnome-calculator bluez nvidia-304-glx-driver-modaliases nvidia-340-glx-driver-modaliases nvidia-glx-driver-modaliases orca xorg-driver-input-wacom -y
+sudo eopkg remove -y onboard evolution-data-server hexchat rhythmbox thunderbird gnome-calculator bluez nvidia-304-glx-driver-modaliases nvidia-340-glx-driver-modaliases nvidia-glx-driver-modaliases orca xorg-driver-input-wacom -y
 #install needed tools
 sudo eopkg install -y atom terminator libreoffice-writer libreoffice-calc git moc unrar mtpfs lm_sensors nmap golang -y
 #modification for wireless to work
