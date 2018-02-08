@@ -1,4 +1,5 @@
 rm -rf Modèles Public
+mkdir Dev
 #remove uneeded programs
 sudo eopkg remove -y thunderbird gnome-calculator bluez nvidia-304-glx-driver-modaliases nvidia-340-glx-driver-modaliases nvidia-glx-driver-modaliases orca xorg-driver-input-wacom -y
 #install needed tools
