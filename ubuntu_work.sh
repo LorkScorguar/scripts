@@ -26,6 +26,5 @@ sudo mkdir -p /etc/ansible
 sudo apt-get install -f
 
 echo "=======Optimize battery usage======="
-echo "Add i915.enable_psr=1 to grub default command line"
 sudo mkdir -p /etc/pm/config.d/
 echo -e "SATA_ALPM_ENABLE=true\nSATA_LINKPWR_ON_AC=max_performance\nSATA_LINKPWR_ON_BAT=min_power" | sudo tee /etc/pm/config.d/sata_alpm
