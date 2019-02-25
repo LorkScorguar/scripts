@@ -8,7 +8,7 @@ echo "alias ll='ls -l --color=auto'" > ~/.zshrc
 
 #Software installing/removing
 pacman -Syyu
-pamac remove xfburn thunderbird gcolor2 timeshift manjaro-hello clonezilla mintstick xterm manjaro-documentation-en
+pamac remove xfburn thunderbird gcolor2 timeshift manjaro-hello clonezilla mintstick xterm manjaro-documentation-en synapse catfish
 pamac install atom go jq android-tools manjaro-printer protobuf libmicrodns vlc transmission-cli transmission-gtk bash-completion
 
 #System changes
